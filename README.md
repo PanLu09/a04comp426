@@ -1,7 +1,6 @@
 # a04comp426
 
-This project utilizes the eBird API to fetch notable bird observations based on user-specified region codes. More details about the eBird API can be found [here](https://documenter.getpostman.com/view/664302/S1ENwy59#07c64240-6359-4688-9c4f-ff3d678a7248).
-
+This project utilizes the eBird API to fetch notable bird observations based on user-specified region codes, and AiBit Translator API for translating text. More details about the eBird API can be found [here](https://documenter.getpostman.com/view/664302/S1ENwy59#07c64240-6359-4688-9c4f-ff3d678a7248). For more details about the AiBit Translator API, visit [here](https://documenter.getpostman.com/view/27760168/2s93shy9EZ).
 
 ## Using the eBird API
 
@@ -65,10 +64,22 @@ The application uses the following region codes to specify the location for the 
 | WV          | West Virginia       |
 | WY          | Wyoming             |
 
+## Using the AiBit Translator API
 
+To make requests to the AiBit Translator API, you will need an API key. 
+
+### Features
+
+- Translate text into multiple languages using AiBit Translator API.
+- Support for multiple languages including Spanish, French, German, and Chinese (Simplified).
+
+### Usage
+
+- Enter text in the text area that you want to translate.
+- Select the target language from the dropdown menu.
+- Click on "Translate" to see the translated text.
 
 ## Author
-
 * **Pan Lu**
 
 

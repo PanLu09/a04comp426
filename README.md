@@ -1,5 +1,4 @@
 # a04comp426
-# Project Title
 
 This project utilizes the eBird API to fetch notable bird observations based on user-specified region codes. More details about the eBird API can be found [here](https://documenter.getpostman.com/view/664302/S1ENwy59#07c64240-6359-4688-9c4f-ff3d678a7248).
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Translation Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Google Translation Service</h1>
+    <form id="translationForm">
+        <textarea id="sourceText" placeholder="Enter text to translate..." required></textarea>
+        <select id="targetLanguage">
+            <option value="es">Spanish</option>
+            <option value="fr">French</option>
+            <option value="de">German</option>
+            <option value="zh">Chinese (Simplified)</option>
+        </select>
+        <button type="submit">Translate</button>
+    </form>
+    <div id="translationResults"></div>
+    <script src="translation.js"></script>
+</body>
+</html>
